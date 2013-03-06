@@ -1,0 +1,119 @@
+<html>
+<head>
+  <!-- This is a HTML comment (the comment creation shortcut in Sublime Text is Cmd + "?") -->
+
+  <!-- The text between the title tags will appear in the browser tab -->
+  <title>Michelle Caers Resume</title>
+  <style type="text/css">
+
+    /* This is a CSS comment. Try playing with the selectors, properties and values as much as possible */
+
+    /* The font family property will be applied to all text in the body */
+    body {
+      font-family: helvetica, arial, sans-serif;
+    }
+
+    /* Text between h1 and h2 elements will be blue */
+    h1, h2 {
+      color: #1BBCE0;
+    }
+
+    /* Text in all paragraphs will be 14px */
+    p {
+      font-size: 14px;
+    }
+    li {
+      font-size: 14px;
+    }
+
+    /* The container will be 960px wide and placed in the center of the page regardless of the browser dimensions */
+    .container {
+      margin: auto;
+      width: 960px;
+    }
+
+    /* Homer's address, phone number and email have been placed in a div with the class "homer-overview". The div is 340px wide and will float to the left of the parent element (in this case it's the div with the class "container") */
+    .homer-overview {
+      width: 340px;
+      float: left;
+    }
+
+
+    /* Homer's employment details have been wrapped in a div with class "homer-details" and floated to the left. They do not move towards the absolute left of the page because the div with class "homer-overview" exists above it:
+
+        <div class="container">
+          <div class="homer-details">
+            I'm touching the left side of the "container" div
+          </div>
+
+          <div class="homer-overview">
+            I'm touching the left side of the "homer-details" div
+          </div>
+        </div>
+
+    */
+    .homer-details {
+      width: 620px;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <!-- If you right click a page with google chrome and click "View Page Source" or "Inspect Element", you will be able to see this :) -->
+
+  <!-- A container is used to create the structure of the page and center the information -->
+  <div class="container">
+    <div class="homer-overview">
+      <h1>Michelle Caers</h1>
+
+      <img src="http://asset0.learnhub.com/users/0000/0051/CentralPark/224x224/cropped/avatar.jpg" alt="Michelle's Portrait" />
+
+    <!-- Paragraphs were used here, but you could easily use line items with page breaks -->
+      <p>Toronto, ON</p>
+      <p>XXXXXXXXXXX</p>
+      <p>xxx-xxx-xxxx</p>
+      <p>Email: mcaers@gmail.com</p>
+    </div>
+
+
+    <!-- The div with class "homer-details" was used to create the structure around his employment information  -->
+    <div class="michelle-details">
+      <h2>Summary of Qualifications</h2>
+      <p>Highly accomplished, results-driven business development leader with extensive experience in entrepreneurial organizations. Excels at growing a business, entering new markets, and launching new brands and products. Energetic relationship builder recognized for exceeding sales targets with a unique combination of strategic decision making, strong business acumen, global experience and exceptional communication skills. 
+
+      <hr />
+
+      <h2>Employment History</h2>
+      <b>Savvica, Toronto ON,</b>
+      <b>2008 to Present</b>
+      <p> Savvica is a higher education marketing company with a focus on India. We operate 3 web properties <a href="http://learnhub.com"> LearnHub</a>,<a href="http://studyplaces.com"> StudyPlaces</a> and <a href="http://jumbotests.com"> Jumbotests.com</a>.
+      <ul>
+               <li>Grew LearnHub to be the #1 education site in the world's largest student market with over 20 million visitors annually.</li>
+      </ul>
+
+      <b>Prospero Learning Solutions, Toronto, ON,</b>
+      <b>2006 to 2008</b>
+      <ul>
+        <p> Prospero provides custom learning and performance support solutions to Fortune 500 companies.
+              <li>Lead all new business development for 2 years with over $4MM in sales.</li>
+      </ul>
+
+      <hr />
+
+      <h2>Education</h2>
+      <b>University of Nottingham, Nottingham, UK</b>
+      <p>MBA, 2001</p>
+      <b>University of Western Ontario, London, ON </b>
+      <p>B.A. (Honors) Political Science, 1994</p>
+
+      <hr />
+
+      <h2>Additional Information</h2>
+      <li>Languages: French (Intermediate), Japanese (Conversational)
+      <li>PADI Certified Advanced Open Water Diver</li>
+      <li>Dual Canadian and EU Citizenship</li>
+    </div>
+  </div>
+
+</body>
+</html>

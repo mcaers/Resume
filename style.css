@@ -1,0 +1,31 @@
+body {
+      font-family: helvetica, arial, sans-serif;
+    }
+
+    /* Text between h1 and h2 elements will be blue */
+    h1, h2 {
+      color: #1BBCE0;
+    }
+
+    /* Text in all paragraphs will be 14px */
+    p {
+      font-size: 14px;
+    }
+    li {
+      font-size: 14px;
+    }
+    .container {
+      margin: auto;
+      width: 960px;
+    }
+    .michelle-overview {
+      width: 300px;
+      float: left;
+      padding-left: 15px;
+      
+    }
+       .michelle-details {
+      width: 620px;
+      float: left;
+      padding-left: 20px;
+    }
